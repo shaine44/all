@@ -1,17 +1,35 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <b-container>
+      <b-row >
+        <b-col v-for="movie in movies" :key="movie.id" sm="4">
+          <MovieCard
+            :title="movie.title"
+            :year="movie.year"
+            :posterUrl="movie.posterUrl"
+          />
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MovieCard from './components/MovieCard.vue'
+import movieDb from './assets/data.json'
+import { orderBy } from 'lodash'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    MovieCard
+  },
+  data () {
+    return {
+      movies: orderBy(movieDb, ['title'], ['asc'])
+    }
+  },
+  methods: {
   }
 }
 </script>
