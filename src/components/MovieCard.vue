@@ -1,18 +1,13 @@
 <template>
-  <b-card
-    :title="title"
-    :img-src="posterUrl"
-    :img-alt="title"
-    img-top
-  >
+  <b-card :title="title" :img-src="posterUrl" :img-alt="title" img-top>
     <b-card-text>{{ descr }}</b-card-text>
-    <a href="#" class="card-link">Add to favorites</a>
+    <b-button :variant="likeButtonClass" @click="onLike(id)">Like</b-button>
   </b-card>
 </template>
 
 <script>
 export default {
-  name: 'MovieCard',
+  name: "MovieCard",
   props: {
     id: Number,
     title: String,
@@ -20,9 +15,16 @@ export default {
     descr: String,
     year: Number,
     countries: Array,
-    genres: Array
+    genres: Array,
+    liked: Boolean,
+    onLike: Function
+  },
+  computed: {
+    likeButtonClass() {
+      return this.liked ? "primary" : "outline-primary";
+    }
   }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

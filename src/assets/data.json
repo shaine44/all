@@ -55,5 +55,92 @@
     ],
     "posterUrl": "https://m.media-amazon.com/images/M/MV5BMGU2NzRmZjUtOGUxYS00ZjdjLWEwZWItY2NlM2JhNjkxNTFmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY999_CR0,0,672,999_AL_.jpg",
     "descr": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her teenage son, John Connor, from a more advanced and powerful cyborg."
+  },
+  {
+    "id": 5,
+    "title": "Особенности национальной охоты",
+    "genres": [
+      "comedy"
+    ],
+    "year": 1995,
+    "countries": [
+      "russia"
+    ],
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BZGJmOTNjZmEtNTQyOC00NmFhLWFlNGMtY2UwZmRjZTNjNzRjXkEyXkFqcGdeQXVyNjExODE1MDc@._V1_SY1000_CR0,0,702,1000_AL_.jpg",
+    "descr": "A Finn preparing a work on the Russian hunting traditions and customs, comes to Russia to collect materials and is invited to take part in a hunting party."
+  },
+  {
+    "id": 6,
+    "title": "1 + 1",
+    "genres": [
+      "drama"
+    ],
+    "year": 2011,
+    "countries": [
+      "France"
+    ],
+    "posterUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_535341.jpg",
+    "descr": "During an unsuccessful flight, a wealthy man named Philip becomes disabled. He begins to search for a person who will help and look after him. After the interviews, he opts for Drissa, who, at first glance, is completely unsuitable for this position, since he recently left prison. But despite this, it was he who managed to help Philip not lose heart."
+  },
+  {
+    "id": 7,
+    "title": "Titanic",
+    "genres": [
+      "drama"
+    ],
+    "year": 1997,
+    "countries": [
+      "usa"
+    ],
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/ru/thumb/1/1b/Titanic_3D_Poster.jpg/267px-Titanic_3D_Poster.jpg",
+    "descr": "Young lovers Jack and Rose find each other in the first and last voyages of the unsinkable Titanic. They could not know that a gorgeous airliner would collide with an iceberg in the cold waters of the North Atlantic, and their passionate love would turn into a fight with death."
+  },
+  {
+    "id": 8,
+    "title": "Mr.Nobody",
+    "genres": [
+      "drama",
+      "fantasy"
+    ],
+    "year": 2009,
+    "countries": [
+      "usa",
+      "Canada",
+      "France",
+      "Germany"
+    ],
+    "posterUrl": "https://thumbs.dfs.ivi.ru/storage28/contents/4/6/13a34b14c43444cb2f86015f2d4e0f.jpg",
+    "descr": "The plot is 2092. The main character, calling himself Nemo Nobody (Eng. Nemo Nobody) - 118-year-old man, the last mortal man on Earth. ... The whole film is a chaotic snippet of Mr. Nobody's memoirs, which make up several mutually exclusive stories of his life."
+  },
+  {
+    "id": 9,
+    "title": "The Lion King",
+    "genres": [
+      "drama",
+      "Cartoon",
+      "Music"
+    ],
+    "year": 2019,
+    "countries": [
+      "usa"
+    ],
+    "posterUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_1005878.jpg",
+    "descr": "The majestic Lion King Mufasa is born an heir named Simba. Already in childhood, an inquisitive kid becomes a victim of the intrigues of his envious Uncle Scar, who dreams of power."
+  },
+  {
+    "id": 10,
+    "title": "It",
+    "genres": [
+      "drama",
+      "horrors",
+      "thriller"
+    ],
+    "year": 2011,
+    "countries": [
+      "usa",
+      "Canada"
+    ],
+    "posterUrl": "https://st.kp.yandex.net/images/film_iphone/iphone360_453397.jpg",
+    "descr": "When children begin to disappear in the town of Derry, Maine, several children are confronted with their greatest fears and forced to face off with the evil clown Pennywise, whose manifestations of cruelty and the list of victims go back centuries."
   }
 ]
